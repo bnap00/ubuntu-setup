@@ -26,7 +26,8 @@ npm install -g pnpm
 
 ## setup zsh to your likings
 ```bash
-wget https://raw.githubusercontent.com/bnap00/ubuntu-setup/main/.zshrc -P ~/.zshrc
+wget https://raw.githubusercontent.com/bnap00/ubuntu-setup/main/.zshrc -P ~/
+source ~/.zshrc
 ```
 
 ## install docker
