@@ -26,6 +26,7 @@ npm install -g pnpm
 
 ## setup zsh to your likings
 ```bash
+mv ~/.zshrc ~/.zshrc.original
 wget https://raw.githubusercontent.com/bnap00/ubuntu-setup/main/.zshrc -P ~/
 source ~/.zshrc
 ```
