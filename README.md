@@ -8,7 +8,7 @@ sudo apt update && sudo apt upgrade -y
 
 ## install basic needs 
 ```bash
-sudo apt install -y vim curl wget git zsh
+sudo apt install -y vim curl wget git zsh python3-pip
 ```
 
 ## install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
@@ -19,10 +19,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 use this [link](https://github.com/nvm-sh/nvm#installing-and-updating) to find the latest command which should look like this
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+source ~/.zshrc
+nvm install 16
+npm install -g pnpm 
 ```
 
 ## setup zsh to your likings
-
+```bash
+wget https://raw.githubusercontent.com/bnap00/ubuntu-setup/main/.zshrc -P ~/.zshrc
+```
 
 ## install docker
 ```bash
