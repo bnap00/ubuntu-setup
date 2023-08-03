@@ -48,4 +48,5 @@ rm get-docker.sh
 ## install snap packages
 ```bash
 sudo snap install --classic code
+sudo snap install postman
 ```
