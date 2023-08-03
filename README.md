@@ -8,7 +8,7 @@ sudo apt update && sudo apt upgrade -y
 
 ## install basic needs 
 ```bash
-sudo apt install -y vim curl wget git zsh python3-pip
+sudo apt install -y vim curl wget git zsh python3-pip snapd
 ```
 
 ## install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
