@@ -24,7 +24,7 @@ nvm install 16
 npm install -g pnpm 
 ```
 
-## setup zsh to your likings
+## setup zsh to your likings (this will ask for passwrod)
 ```bash
 mv ~/.zshrc ~/.zshrc.original
 wget https://raw.githubusercontent.com/bnap00/ubuntu-setup/main/.zshrc -P ~/
@@ -43,6 +43,10 @@ EOF
 ########## END ##########
 dockerd-rootless-setuptool.sh install
 rm get-docker.sh
+```
+## Create ssh keys (this will require promps)
+```bash
+cd ~ && ssh-keygen -t rsa
 ```
 
 ## install snap packages
