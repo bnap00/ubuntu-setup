@@ -54,3 +54,13 @@ cd ~ && ssh-keygen -t rsa
 sudo snap install --classic code
 sudo snap install postman
 ```
+
+## setup copyq
+* open copyq
+* press `Ctrl + P` to open prefrences.
+* enable these options in general panel
+1. Always on top
+2. autostart
+* Go to shortcut panel
+* click on add infront of `Show/hide main window`
+
