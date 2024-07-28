@@ -12,6 +12,7 @@ ZSH_THEME="clean"
 
 
 alias pp="pnpm"
+alias px="pnpm dlx"
 alias reloadzsh="source ~/.zshrc"
 alias editzsh="code ~/.zshrc"
 
